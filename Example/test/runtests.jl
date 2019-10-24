@@ -10,6 +10,6 @@ using Test
 # Example.my_f(2,1) == 7
 
 @testset "Example.jl" begin
-    @test f(2,1) == 7
-    @test f(2,3) == 13# Write your own tests here.
+    @test my_f(2,1) == 7
+    @test my_f(2,3) == 13# Write your own tests here.
 end
