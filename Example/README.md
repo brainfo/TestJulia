@@ -5,3 +5,5 @@
 [![Codecov](https://codecov.io/gh/brainfo/Example.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/brainfo/Example.jl)
 [![Coveralls](https://coveralls.io/repos/github/brainfo/Example.jl/badge.svg?branch=master)](https://coveralls.io/github/brainfo/Example.jl?branch=master)
 [![Build Status](https://api.cirrus-ci.com/github/brainfo/Example.jl.svg)](https://cirrus-ci.com/github/brainfo/Example.jl)
+
+This is a repository for a linear function `my_f` and its derivatives.
