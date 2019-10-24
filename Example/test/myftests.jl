@@ -1,9 +1,11 @@
-<<<<<<< HEAD
 using Example
 using Test
+# my_f(2,1)
+## WHY???
+# derivative_of_my_f(2,1)
 ## One Choice
 # Example.my_f(2,1)
-# ## Another Choice, to add 'exprot' in jl
+# ## Another Choice, to add 'export' in jl
 # my_f(2,1)
 # ## safer, not export everything packages export
 # ## distinguish public between private
@@ -14,7 +16,7 @@ using Test
     @test my_f(2,1) == 7
     @test my_f(2,3) == 13# Write your own tests here.
 end
-=======
-using SafeTestsets
-@safetestset "My f tests" begin include("myftests.jl") end
->>>>>>> my_new_test
+
+@testset "Derivative Tests" begin
+    @test derivative_of_my_f(2,1) == 2
+end
