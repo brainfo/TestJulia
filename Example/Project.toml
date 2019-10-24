@@ -3,7 +3,12 @@ uuid = "d25d414a-8a25-4ed4-b765-7496cad70195"
 authors = ["Ruby Jiang"]
 version = "0.1.0"
 
+[deps]
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+SafeTestsets = "1bc83da4-3b8d-516f-aca4-4fe02f6d838f"
+
 [compat]
+ForwardDiff = "0.10.3"
 julia = "1.2"
 
 [extras]
